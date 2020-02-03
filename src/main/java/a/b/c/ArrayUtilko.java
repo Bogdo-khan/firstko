@@ -17,9 +17,9 @@ public class ArrayUtilko {
         }
     }
 
-    public static void print(int[] src) {
+    public static void print(String prefix, int[] src) {
         //TODO fuck somebody
         String result = StringUtils.join(ArrayUtils.toObject(src), ", ");
-        System.out.println(result);
+        System.out.println(prefix + result);
     }
 }
